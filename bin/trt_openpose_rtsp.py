@@ -99,9 +99,9 @@ def main(args):
 
         cv2.imshow('RTSP target frame', origin_img)
 
-        print(f'[INFO] counts and shape: {counts}, {counts.shape}')
-        print(f'[INFO] objectsand shape: {objects}, {objects.shape}')
-        print(f'[INFO] peaks and shape: {peaks}, {peaks.shape}')
+        # print(f'[INFO] counts and shape: {counts}, {counts.shape}')
+        # print(f'[INFO] objectsand shape: {objects}, {objects.shape}')
+        # print(f'[INFO] peaks and shape: {peaks}, {peaks.shape}')
 
         key = cv2.waitKey(1) & 0xFF
         if key == ord('q'):

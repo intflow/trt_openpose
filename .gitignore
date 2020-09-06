@@ -1,1 +1,4 @@
 pretrained_model/
+bin/frame_save/
+bin/results/
+test_data/

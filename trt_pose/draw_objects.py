@@ -13,7 +13,7 @@ class DrawObjects(object):
         
         K = topology.shape[0]
         count = int(object_counts[0])
-        K = topology.shape[0]
+        # K = topology.shape[0]
         for i in range(count):
             color = (0, 255, 0)
             obj = objects[0][i]

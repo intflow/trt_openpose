@@ -88,7 +88,9 @@ def main(args):
 
     camera = RTSPCamera(width=WIDTH, height=HEIGHT, capture_width=640, capture_height=480, capture_device='rtsp://admin:intflow3121@192.168.0.103:554/cam/realmonitor?channel=1&subtype=1')
 
-    video_writer = cv2.VideoWriter(os.path.join(args['frame_save_path'], 'ouptut.avi'), cv2.VideoWriter_fourcc(*'MJPG'), 25.0, (224, 224))
+    # fps = camera.cap.get(cv2.CAP_PROP_FPS)
+
+    video_writer = cv2.VideoWriter(os.path.join(args['frame_save_path'], 'ouptut2.avi'), cv2.VideoWriter_fourcc(*'MJPG'), 15.0, (224, 224))
 
 
     frame_num = 0
